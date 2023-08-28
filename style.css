@@ -94,6 +94,10 @@ html,body{
     padding: 10px;
 }
 
+.project-text{
+    font-size: small;
+    opacity: 80%;
+}
 .nav-style {
     margin-top: 0.5em;
     margin-left: 90%;
@@ -156,8 +160,10 @@ html,body{
     background-color: white;
     width: 300px;
     height: 190px;
-    padding: 0.2em;
+    padding: 2em 1em 3em 1em;
     border-radius: 9px;
+    border-left: 9px solid rgba(255, 255, 0, 0.693);
+    
 }
 
 .ancmts{
@@ -165,9 +171,87 @@ html,body{
     margin-left: 1.8em;
 }
 
-.l-card-style{
+.r-card-style{
     background-color: white;
     height: 180px;
     width: 220px;
     margin-top: 1em;
+    border-radius: 9px;
+}
+
+.cards-text{
+    height: 100px;
+}
+
+.cards-opts {
+    width: 20px;
+}
+
+.cards-icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    margin: 1em 10em;
+}
+
+.anmt-cards {
+    padding: 01em;
+    display: grid;
+    gap: 0.5em;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.anmt-cnts{
+    border-bottom: 1.8px solid rgba(0, 0, 0, 0.336);
+    padding-bottom: 0.5em;
+}
+.text-match{
+    font-size: 10px;
+    opacity: 70%;
+}
+.trend{
+    margin-top: 1.6em;
+}
+
+.rt-card-style{
+    margin-top: 16px;
+    background-color: white;
+    height: 150px;
+    padding: 1em;
+    border-radius: 9px;
+}
+
+
+.image-cropper {
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.image-cropper-top1 {
+    width: 2.3em;
+    height: 2.3em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.image-cropper-top2 {
+    width: 3.4em;
+    height: 3.4em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.trend-cards{
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+}
+.trend-cards > div > h3 {
+    font-size: 10px;
+}
+
+.trend-cards-container {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 8px;
 }
