@@ -16,6 +16,7 @@ html,body{
     grid-template-columns: 1fr 6fr;
 }
 
+
 /*working on side bar*/
 .sidebar{
     display: grid;
@@ -62,6 +63,7 @@ html,body{
     font-family: 'Montserrat', sans-serif;
     width: 100px;
     font-size: small;
+    margin-top: 4.5px;
 }
 
 
@@ -94,13 +96,10 @@ html,body{
     padding: 10px;
 }
 
-.project-text{
-    font-size: small;
-    opacity: 80%;
-}
 .nav-style {
     margin-top: 0.5em;
     margin-left: 90%;
+    cursor: pointer;
 }
 
 .navbar-b{
@@ -160,11 +159,28 @@ html,body{
     background-color: white;
     width: 300px;
     height: 190px;
-    padding: 2em 1em 3em 1em;
+    padding: 2em 3em 3em 1em;
     border-radius: 9px;
     border-left: 9px solid rgba(255, 255, 0, 0.693);
     
 }
+
+.project-text{
+    font-size: small;
+    opacity: 75%;
+
+}
+
+.cards-text > a{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.cards-text > p{
+    margin-top: 6px;
+}
+/*Announcement part*/
 
 .ancmts{
     display: grid;
@@ -192,6 +208,7 @@ html,body{
     grid-template-columns: repeat(3,1fr);
     gap: 1em;
     margin: 1em 10em;
+    cursor: pointer;
 }
 
 .anmt-cards {
@@ -200,6 +217,9 @@ html,body{
     gap: 0.5em;
     grid-template-rows: repeat(3,1fr);
 }
+.anmt-cards > div > h5 {
+    cursor: pointer;
+}
 
 .anmt-cnts{
     border-bottom: 1.8px solid rgba(0, 0, 0, 0.336);
@@ -207,8 +227,13 @@ html,body{
 }
 .text-match{
     font-size: 10px;
-    opacity: 70%;
+    opacity: 75%;
 }
+
+
+/*Trending part*/
+
+
 .trend{
     margin-top: 1.6em;
 }
@@ -245,9 +270,11 @@ html,body{
 .trend-cards{
     display: grid;
     grid-template-columns: 0.35fr 1fr;
+    cursor: pointer;
 }
 .trend-cards > div > h3 {
     font-size: 10px;
+    margin-bottom: 5px;
 }
 
 .trend-cards-container {
